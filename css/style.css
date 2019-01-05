@@ -1,0 +1,60 @@
+#home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../img/background-stars.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#home-page p{
+  text-align: center;
+  padding : 20px;
+}
+
+#start-btn {
+  font-size: 24px;
+  padding: 30px;
+  border-radius: 50px;
+  width: 24%;
+  margin: 30px;
+}
+
+#game {
+  display: none;
+  text-align: center;
+  flex-direction: column;
+}
+
+#game h2 {
+  flex: 1;
+}
+
+#game .game-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+#game .letter-random p {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+#time {
+    width: 100%;
+    background-color: grey;
+}
+#myBar {
+    width: 1%;
+    height: 30px;
+    background-color: green;
+}
+
+#game .lifes {
+  color: red;
+}
+
+ #game .lifes .heartEmpty {
+  display: none;
+}
